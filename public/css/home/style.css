@@ -1,0 +1,39 @@
+#header {
+    background: url(/img/header-bg.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#header .overlay {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header .header-content {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+#hot {
+
+    margin-top: 10%;
+    height: 60%;
+}
+
+#hot h3 {
+    color: black;
+}
