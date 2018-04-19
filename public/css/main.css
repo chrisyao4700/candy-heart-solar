@@ -6,3 +6,6 @@ nav .right-items {
     margin-right: 15px;
 }
 
+nav .nav-link {
+    cursor: pointer;
+}
