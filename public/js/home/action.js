@@ -1,4 +1,4 @@
-const init_map = () => {
+function init_map(){
     let mapOptions = {
         center: new google.maps.LatLng(34.0900, -117.8903),
         zoom: 11,
@@ -9,7 +9,7 @@ const init_map = () => {
         position: {lat: 34.1057817, lng: -117.8590719},
         map: map
     });
-};
+}
 
 const clickNav = (item) => {
     $('html, body').animate({
