@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514e2dd4-22cf-4b36-9384-3030c5e08916" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/menu/menu.conn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/home/components/footer.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/home/style.css" afterPath="$PROJECT_DIR$/public/css/home/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/home/action.js" afterPath="$PROJECT_DIR$/public/js/home/action.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.router.js" afterPath="$PROJECT_DIR$/routes/index.router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/components/contact.ejs" afterPath="$PROJECT_DIR$/views/home/components/contact.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/components/menu.ejs" afterPath="$PROJECT_DIR$/views/home/components/menu.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/page_root.ejs" afterPath="$PROJECT_DIR$/views/home/page_root.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shared/nav.ejs" afterPath="$PROJECT_DIR$/views/shared/nav.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/components/head.ejs" afterPath="$PROJECT_DIR$/views/home/components/head.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="action.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/home/action.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/home/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.conn.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.conn.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/menu/menu.conn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-319">
               <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/home/components/head.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="108" lean-forward="false" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -145,7 +136,6 @@
       <list>
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/home/components/head.ejs" />
         <option value="$PROJECT_DIR$/views/home/components/header.ejs" />
         <option value="$PROJECT_DIR$/views/shared/head.ejs" />
         <option value="$PROJECT_DIR$/views/shared/tail.ejs" />
@@ -163,6 +153,7 @@
         <option value="$PROJECT_DIR$/public/css/home/style.css" />
         <option value="$PROJECT_DIR$/views/home/components/footer.ejs" />
         <option value="$PROJECT_DIR$/modules/menu/menu.conn.js" />
+        <option value="$PROJECT_DIR$/views/home/components/head.ejs" />
       </list>
     </option>
   </component>
@@ -318,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523931963543</updated>
-      <workItem from="1523931965748" duration="17310000" />
+      <workItem from="1523931965748" duration="17977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17310000" />
+    <option name="totallyTimeSpent" value="17977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -505,14 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/components/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home/components/tail.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -637,8 +620,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/menu/menu.conn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-319">
           <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/components/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="108" lean-forward="false" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
           <folding />
         </state>
       </provider>
