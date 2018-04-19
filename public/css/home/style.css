@@ -65,6 +65,11 @@
     margin-right: auto;
     height: 60px;
     width: 60px;
+    /*border-radius: 60px;*/
+}
+
+#menu .item-icon-img {
+    border-radius: 60px;
 }
 
 #gallery {
@@ -88,4 +93,6 @@
     min-height: 400px;
 }
 
-
+footer {
+    margin-top: 5%;
+}

@@ -8,52 +8,21 @@
     </h4>
     <div class="container section-content">
         <div class="row">
-            <% for (let i = 0 ; i < 3; i++) { %>
+            <% menuItems.forEach(item =>{ %>
             <div class="col-md-4 col-sm-12">
                 <div class="card text-primary bg-light mb-3" style="max-width: 20rem;">
                     <div class="card-body">
-                        <img src="/img/milk-shake.jpg" alt="" class="img-fluid">
+                        <img src="<%= item.imgPath %>" alt="" class="img-fluid">
                         <div class="item-icon">
-                            <img src="/img/item-icon.png" alt="" class="img-fluid">
+                            <img src="<%= item.iconPath %>" alt="" class="img-fluid item-icon-img">
                         </div>
-                        <h4 class="card-title text-center">Item name</h4>
+                        <h4 class="card-title text-center"><%= item.name %></h4>
                         <div class="name-underline"></div>
+                        <h5 class="card-title text-center"><%= item.price %></h5>
                     </div>
                 </div>
             </div>
-            <% } %>
-        </div>
-        <div class="row">
-            <% for (let i = 3 ; i < 6; i++) { %>
-            <div class="col-md-4 col-sm-12">
-                <div class="card text-primary bg-light mb-3" style="max-width: 20rem;">
-                    <div class="card-body">
-                        <img src="/img/milk-shake.jpg" alt="" class="img-fluid">
-                        <div class="item-icon">
-                            <img src="/img/item-icon.png" alt="" class="img-fluid">
-                        </div>
-                        <h4 class="card-title text-center">Item name</h4>
-                        <div class="name-underline"></div>
-                    </div>
-                </div>
-            </div>
-            <% } %>
-        </div>
-        <div class="row">
-            <% for (let i = 6 ; i < 9; i++) { %>
-            <div class="col-md-4 col-sm-12">
-                <div class="card text-primary bg-light mb-3" style="max-width: 20rem;">
-                    <div class="card-body">
-                        <img src="/img/milk-shake.jpg" alt="" class="img-fluid">
-                        <div class="item-icon">
-                            <img src="/img/item-icon.png" alt="" class="img-fluid">
-                        </div>
-                        <h4 class="card-title text-center">Item name</h4>
-                        <div class="name-underline"></div>
-                    </div>
-                </div>
-            </div>
-            <% } %>
+            <% }); %>
         </div>
     </div>
 </section>
