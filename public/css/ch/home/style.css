@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 768px) {
-    #header .header-content{
+    #header .header-content {
         margin-top: 80px;
     }
 }
@@ -103,4 +103,8 @@
 
 footer {
     margin-top: 5%;
+}
+
+.hot-title {
+    margin-top: 20px;
 }
