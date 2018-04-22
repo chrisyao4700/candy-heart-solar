@@ -1,3 +1,21 @@
+@font-face {
+
+    font-family: 'cy-font';   /*字体名称*/
+    src: url('/font/my-font.otf');       /*字体源文件*/
+}
+
+body {
+    font-family: 'cy-font';
+}
+
+.navbar-brand {
+    font-family: 'cy-font';
+}
+
+body h1, h2, h3, h4, h5 {
+    font-family: 'cy-font';
+}
+
 .section-content {
     margin-top: 3%;
 }

@@ -7,9 +7,10 @@ router.get('/', function (req, res, next) {
     res.redirect('/en');
 });
 router.get('/:language', function (req, res, next) {
-    res.render(req.params.language + '/home/page_root.ejs', {
+    let lan = req.params.language;
+    res.render(lan + '/home/page_root.ejs', {
         title: 'Tassie Cake',
-        menuItems: req.params.language === 'ch'?  menuConn.getMenuList(): menuConn.getEnMenuList()
+        menuItems: lan === 'ch'?  menuConn.getMenuList(): menuConn.getEnMenuList()
     });
 });
 
