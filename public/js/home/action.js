@@ -1,4 +1,4 @@
-function init_map(){
+function init_map() {
     let mapOptions = {
         center: new google.maps.LatLng(34.0900, -117.8903),
         zoom: 11,
@@ -17,3 +17,18 @@ const clickNav = (item) => {
     }, 1000);
 
 };
+
+
+const clickHeaderBtn = () => {
+    $('html, body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 1000);
+};
+
+$(document).ready(() => {
+    // let options = {
+    //     animateThreshold: 100,
+    //     scrollPollInterval: 20
+    // };
+    $('.aniview').AniView();
+});

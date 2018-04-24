@@ -14,14 +14,14 @@
 }
 
 #header .overlay {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     position: absolute !important;
     width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 1;
+    z-index: -1;
 
     background-size: cover;
     height: 100%;

@@ -1,7 +1,7 @@
 @font-face {
 
     font-family: 'cy-font';   /*字体名称*/
-    src: url('/font/my-font.otf');       /*字体源文件*/
+    src: url('/font/pencil-font.ttf');       /*字体源文件*/
 }
 
 body {
@@ -32,14 +32,14 @@ body h1, h2, h3, h4, h5 {
 }
 
 #header .overlay {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     position: absolute !important;
     width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 1;
+    z-index: -1;
 
     background-size: cover;
     height: 100%;

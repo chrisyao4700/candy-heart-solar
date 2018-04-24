@@ -25,6 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use('/node_modules/font-awesome', express.static(__dirname + '/node_modules/font-awesome'));
+app.use('/node_modules/wowjs', express.static(__dirname + '/node_modules/wowjs'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);

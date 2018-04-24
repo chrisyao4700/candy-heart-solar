@@ -40,19 +40,19 @@ const getMenuList = () => {
             name: '草莓牛油果奶昔',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-6.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-6.jpg',
-            price: '$ 9'
+            price: '$ 12'
         },
         {
             name: '芒果奶昔',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-7.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-7.jpg',
-            price: '$ 9'
+            price: '$ 12'
         },
         {
             name: '草莓蓝莓奶昔',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-8.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-8.jpg',
-            price: '$ 9'
+            price: '$ 12'
         }
     ];
     return menuList;
@@ -100,19 +100,19 @@ const getEnMenuList = () => {
             name: 'Strawberry Avocado Smoothie',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-6.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-6.jpg',
-            price: '$ 9'
+            price: '$ 12'
         },
         {
             name: 'Mango Smoothie',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-7.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-7.jpg',
-            price: '$ 9'
+            price: '$ 12'
         },
         {
             name: 'Strawberry Blueberry Smoothie',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-8.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-8.jpg',
-            price: '$ 9'
+            price: '$ 12'
         }
     ];
     return menuList;
