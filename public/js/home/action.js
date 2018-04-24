@@ -15,7 +15,6 @@ const clickNav = (item) => {
     $('html, body').animate({
         scrollTop: $(item).offset().top
     }, 1000);
-
 };
 
 
@@ -24,11 +23,3 @@ const clickHeaderBtn = () => {
         scrollTop: $('#contact').offset().top
     }, 1000);
 };
-
-$(document).ready(() => {
-    // let options = {
-    //     animateThreshold: 100,
-    //     scrollPollInterval: 20
-    // };
-    $('.aniview').AniView();
-});

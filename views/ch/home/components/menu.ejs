@@ -1,16 +1,17 @@
 <section id="menu">
-    <h3 class="text-center">
+    <h3 class="text-center wow fadeInDown" data-wow-duration=".4s" data-wow-delay=".2s">
         菜单
     </h3>
-    <hr align="center" width="40%">
-    <h4 class="text-center">
+    <hr class=" wow fadeInDown" data-wow-duration=".4s" data-wow-delay=".4s" align="center" width="40%">
+    <h4 class="text-center wow fadeInDown" data-wow-duration=".4s" data-wow-delay=".6s">
         新鲜出炉，每季更新哟～
     </h4>
     <div class="container section-content">
         <div class="row">
-            <% menuItems.forEach(item =>{ %>
+            <% menuItems.forEach((item, index) =>{ %>
             <div class="col-md-4 col-sm-12">
-                <div class="card text-primary bg-light mb-3" style="max-width: 20rem;">
+                <div class="card text-primary bg-light mb-3 wow fadeInUp" data-wow-duration=".4s"
+                     data-wow-delay="<%= index % 3 * 0.3 %>s" style="max-width: 20rem;">
                     <div class="card-body">
                         <img src="<%= item.imgPath %>" alt="" class="img-fluid">
                         <div class="item-icon">
