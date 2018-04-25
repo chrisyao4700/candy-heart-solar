@@ -10,12 +10,16 @@
         <div class="row">
             <% menuItems.forEach((item, index) =>{ %>
             <div class="col-md-4 col-sm-12">
-                <div class="card text-primary bg-light mb-3 wow fadeInUp" style="max-width: 20rem;" data-wow-duration=".3s"
-                     data-wow-delay="<%= index%3 * 0.3 %>s">
+                <div class="card text-primary bg-light mb-3 wow fadeInUp" style="max-width: 20rem;"
+                     data-wow-duration=".3s"
+                     data-wow-delay="<%= index % 3 * 0.3 %>s">
                     <div class="card-body">
-                        <img src="<%= item.imgPath %>" alt="" class="img-fluid">
+                        <a data-toggle="modal" data-target="#<%= 'menu-modal-' + index %>">
+                            <img src="<%= item.imgPath %>" alt="" class="img-fluid">
+                        </a>
+                        <% include menu-modal.ejs %>
                         <div class="item-icon">
-                            <img src="<%= item.iconPath %>" alt="" class="img-fluid item-icon-img">
+                            <img src="<%= item.iconPath %>" alt="Tassie Cake" class="img-fluid item-icon-img">
                         </div>
                         <h4 class="card-title text-center"><%= item.name %></h4>
                         <div class="name-underline"></div>
@@ -23,6 +27,7 @@
                     </div>
                 </div>
             </div>
+
             <% }); %>
         </div>
     </div>
