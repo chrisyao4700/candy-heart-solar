@@ -142,16 +142,16 @@ const getEnMenuList = () => {
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-6.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-6.jpg',
             price: '$ 12',
-            des: 'No sugar and water added, all smoothies are made with fresh organic fruits, yogurt, and oatmeal.<br>' +
-            'This is a low fat, low calorie dessert, very healthy for gym lovers.<br>'
+            des: '<i class="fa fa-star"></i> No sugar and water added, all smoothies are made with fresh organic fruits, yogurt, and oatmeal.<br>' +
+            '<i class="fa fa-star"></i> This is a low fat, low calorie dessert, very healthy for gym lovers.<br>'
         },
         {
             name: 'Mango Smoothie',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-7.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-7.jpg',
             price: '$ 12',
-            des: 'No sugar and water added, all smoothies are made with fresh organic fruits, yogurt, and oatmeal.<br>' +
-            'This is a low fat, low calorie dessert, very healthy for gym lovers.<br>'
+            des: '<i class="fa fa-star"></i> No sugar and water added, all smoothies are made with fresh organic fruits, yogurt, and oatmeal.<br>' +
+            '<i class="fa fa-star"></i> This is a low fat, low calorie dessert, very healthy for gym lovers.<br>'
         },
         {
             name: 'Strawberry Blueberry Smoothie',
