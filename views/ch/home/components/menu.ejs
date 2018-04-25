@@ -13,7 +13,11 @@
                 <div class="card text-primary bg-light mb-3 wow fadeInUp" data-wow-duration=".4s"
                      data-wow-delay="<%= index % 3 * 0.3 %>s" style="max-width: 20rem;">
                     <div class="card-body">
-                        <img src="<%= item.imgPath %>" alt="" class="img-fluid">
+                        <a data-toggle="modal" data-target="#<%= 'menu-modal-' + index %>">
+                            <img src="<%= item.imgPath %>" alt="唐心蛋糕" class="img-fluid">
+                        </a>
+                        <% include menu-modal.ejs %>
+
                         <div class="item-icon">
                             <img src="<%= item.iconPath %>" alt="" class="img-fluid item-icon-img">
                         </div>

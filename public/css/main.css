@@ -26,3 +26,8 @@ nav .nav-link {
 .wow {
     visibility: hidden;
 }
+
+.modal-price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
