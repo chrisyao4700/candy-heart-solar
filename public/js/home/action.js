@@ -10,3 +10,16 @@ function init_map() {
         map: map
     });
 }
+
+const clickNav = (item) => {
+    $('html, body').animate({
+        scrollTop: $(item).offset().top
+    }, 1000);
+};
+
+
+const clickHeaderBtn = () => {
+    $('html, body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 1000);
+};

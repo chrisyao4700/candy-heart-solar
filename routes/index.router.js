@@ -1,12 +1,16 @@
-var express = require('express');
-var router = express.Router();
-var menuConn = require('../modules/menu/menu.conn');
+const express = require('express');
+const router = express.Router();
+const menuConn = require('../modules/menu/menu.conn');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('home/page_root.ejs', {
+    res.redirect('/en');
+});
+router.get('/:language', function (req, res, next) {
+    let lan = req.params.language;
+    res.render(lan + '/home/page_root.ejs', {
         title: 'Tassie Cake',
-        menuItems: menuConn.getMenuList()
+        menuItems: lan === 'ch'?  menuConn.getMenuList(): menuConn.getEnMenuList()
     });
 });
 

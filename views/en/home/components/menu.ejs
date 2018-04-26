@@ -1,0 +1,35 @@
+<section id="menu">
+    <h3 class="text-center wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+        Menu
+    </h3>
+    <hr class=" wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".4s" align="center" width="40%">
+    <h4 class="text-center wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".6s">
+        Everything is fresh!
+    </h4>
+    <div class="container section-content">
+        <div class="row">
+            <% menuItems.forEach((item, index) =>{ %>
+            <div class="col-md-4 col-sm-12">
+                <div class="card text-primary bg-light mb-3 wow fadeInUp" style="max-width: 20rem;"
+                     data-wow-duration=".3s"
+                     data-wow-delay="<%= index % 3 * 0.3 %>s">
+                    <div class="card-body">
+                        <a class="menu-img" data-toggle="modal" data-target="#<%= 'menu-modal-' + index %>">
+                            <div class="img-overlay"></div>
+                            <img src="<%= item.imgPath %>" alt="" class="img-fluid">
+                        </a>
+
+                        <div class="item-icon">
+                            <img src="<%= item.iconPath %>" alt="Tassie Cake" class="img-fluid item-icon-img">
+                        </div>
+                        <h4 class="card-title text-center"><%= item.name %></h4>
+                        <div class="name-underline"></div>
+                        <h5 class="card-title text-center"><%= item.price %></h5>
+                    </div>
+                </div>
+            </div>
+            <% include menu-modal.ejs %>
+            <% }); %>
+        </div>
+    </div>
+</section>
