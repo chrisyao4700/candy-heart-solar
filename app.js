@@ -17,7 +17,6 @@ app.set('view engine', 'ejs');
 //     }
 //     res.redirect("https://" + req.headers.host + req.url);
 // });
-//somechang
 
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
