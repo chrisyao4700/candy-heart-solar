@@ -9,8 +9,8 @@ router.get('/', function (req, res, next) {
 router.get('/:language', function (req, res, next) {
     let lan = req.params.language;
     res.render(lan + '/home/page_root.ejs', {
-        title: 'Tassie Cake',
-        menuItems: lan === 'ch'?  menuConn.getMenuList(): menuConn.getEnMenuList()
+        title: lan === 'ch' ? '唐心蛋糕' : 'Tassie Cake',
+        menuItems: lan === 'ch' ? menuConn.getMenuList() : menuConn.getEnMenuList()
     });
 });
 
