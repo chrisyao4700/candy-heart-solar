@@ -20,6 +20,12 @@ const clickNav = (item) => {
 
 const clickHeaderBtn = () => {
     $('html, body').animate({
-        scrollTop: $('#contact').offset().top
+        scrollTop: $('#menu').offset().top
     }, 1000);
+    toggleOnlineChatting();
 };
+
+
+function toggleOnlineChatting() {
+    Tawk_API.toggle();
+}
