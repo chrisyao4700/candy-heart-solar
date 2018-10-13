@@ -4,7 +4,7 @@ const getMenuList = () => {
             name: '草莓千层',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-0.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-0.jpg',
-            price: '6\'\' $39 | 8\'\' $59 | 10\'\' $80',
+            price: '6\'\' $39 | 8\'\' $60 | 10\'\' $80',
             des: '<i class="fa fa-star"></i> 使用草莓果酱做成的酸甜口草莓可丽饼<br>' +
             '<i class="fa fa-star"></i> 鲜奶油+酸奶，再搭配草莓果酱做成酸甜平衡的草莓奶油<br>' +
             '<i class="fa fa-star"></i> 加入新鲜草莓果肉增加口感<br>'
@@ -89,7 +89,7 @@ const getEnMenuList = () => {
             name: 'Strawberry Mille Crepes',
             iconPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-icon/menu-icon-0.png',
             imgPath: 'https://s3-us-west-1.amazonaws.com/candy-heart-storage/menu-item/menu-item-0.jpg',
-            price: '6\'\' $39 | 8\'\' $59 | 10\'\' $80',
+            price: '6\'\' $39 | 8\'\' $60 | 10\'\' $80',
             des: '<i class="fa fa-star"></i> The crepes are made with natural strawberry jam.<br>' +
             '<i class="fa fa-star"></i> The strawberry cream is made with yogurt and strawberry jam. <br>' +
             '<i class="fa fa-star"></i> Adding some fresh strawberries for taste.<br>'
