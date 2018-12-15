@@ -78,6 +78,33 @@ const getMenuList = () => {
             des: '<i class="fa fa-star"></i> 只选用新鲜水果<br>' +
             '<i class="fa fa-star"></i> 零糖零水添加，甜味来自水果和酸奶，搭配燕麦更健康<br>' +
             '<i class="fa fa-star"></i> 低脂低卡+饱腹感，是健身爱好者的放心选择<br>'
+        },
+        {
+            name: '提拉米苏奶盖戚风',
+            iconPath: '/img/menu-icon-9.png',
+            imgPath: '/img/menu-item-9.jpg',
+            price: '6\'\' $39 | 9\'\' $69',
+            des: '<i class="fa fa-star"></i> 使用马斯卡彭芝士做成奶盖  再淋入戚风巧克力蛋糕中<br>' +
+            '<i class="fa fa-star"></i> 依旧是传统的提拉米苏口味<br>' +
+            '<i class="fa fa-star"></i> 但在口感上有独特之处<br>'
+        },
+        {
+            name: '紫薯戚风',
+            iconPath: '/img/menu-icon-10.png',
+            imgPath: '/img/menu-item-10.jpg',
+            price: '6\'\' $35 | 9\'\' $65',
+            des: '<i class="fa fa-star"></i> 传统的戚风蛋糕<br>' +
+            '<i class="fa fa-star"></i> 配上浓郁的紫薯泥 再加上紫薯奶油<br>' +
+            '<i class="fa fa-star"></i> 口感细腻柔滑<br>'
+        },
+        {
+            name: '脏脏包',
+            iconPath: '/img/menu-icon-11.png',
+            imgPath: '/img/menu-item-11.jpg',
+            price: '$ 6',
+            des: '<i class="fa fa-star"></i> 可颂面包中流出香醇的巧克力酱 外酥里嫩<br>' +
+            '<i class="fa fa-star"></i> 采用纯正黑巧克力➕奶油巧克力 将它们完美地融合入面包中<br>' +
+            '<i class="fa fa-star"></i> 口感丰富 巧克力浓郁而不腻<br>'
         }
     ];
     return menuList;
@@ -160,6 +187,33 @@ const getEnMenuList = () => {
             price: '$ 12',
             des: '<i class="fa fa-star"></i> No sugar and water added, all smoothies are made with fresh organic fruits, yogurt, and oatmeal.<br>' +
             '<i class="fa fa-star"></i> This is a low fat, low calorie dessert, very healthy for gym lovers.<br>'
+        },
+        {
+            name: 'Tiramisu Chiffon',
+            iconPath: '/img/menu-icon-9.png',
+            imgPath: '/img/menu-item-9.jpg',
+            price: '6\'\' $39 | 9\'\' $69',
+            des: '<i class="fa fa-star"></i> Make a milk cap with mascarpone cheese and pour it into the chiffon chocolate cake.<br>' +
+            '<i class="fa fa-star"></i> Still the traditional tiramisu taste.<br>' +
+            '<i class="fa fa-star"></i> But there is something unique about the taste.<br>'
+        },
+        {
+            name: 'Purple Sweet Potato Chiffon',
+            iconPath: '/img/menu-icon-10.png',
+            imgPath: '/img/menu-item-10.jpg',
+            price: '6\'\' $35 | 9\'\' $65',
+            des: '<i class="fa fa-star"></i> Traditional Chiffon Cake.<br>' +
+            '<i class="fa fa-star"></i> With rich purple potato puree and cream.<br>' +
+            '<i class="fa fa-star"></i> Tastes delicate and smooth.<br>'
+        },
+        {
+            name: 'Chocolate Croissant',
+            iconPath: '/img/menu-icon-11.png',
+            imgPath: '/img/menu-item-11.jpg',
+            price: '$ 6',
+            des: '<i class="fa fa-star"></i> You can sip the sweet chocolate sauce in the bread.<br>' +
+            '<i class="fa fa-star"></i> Use pure dark chocolate and whipped cream chocolate, blend them perfectly into the bread.<br>' +
+            '<i class="fa fa-star"></i> Chocolate tastes rich but not greasy.<br>'
         }
     ];
     return menuList;
