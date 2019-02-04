@@ -83,7 +83,7 @@ const getMenuList = () => {
             name: '提拉米苏奶盖戚风',
             iconPath: '/img/menu-icon-9.png',
             imgPath: '/img/menu-item-9.jpg',
-            price: '6\'\' $39 | 9\'\' $69',
+            price: '7\'\' $49',
             des: '<i class="fa fa-star"></i> 使用马斯卡彭芝士做成奶盖  再淋入戚风巧克力蛋糕中<br>' +
             '<i class="fa fa-star"></i> 依旧是传统的提拉米苏口味<br>' +
             '<i class="fa fa-star"></i> 但在口感上有独特之处<br>'
@@ -192,7 +192,7 @@ const getEnMenuList = () => {
             name: 'Tiramisu Chiffon',
             iconPath: '/img/menu-icon-9.png',
             imgPath: '/img/menu-item-9.jpg',
-            price: '6\'\' $39 | 9\'\' $69',
+            price: '7\'\' $49',
             des: '<i class="fa fa-star"></i> Make a milk cap with mascarpone cheese and pour it into the chiffon chocolate cake.<br>' +
             '<i class="fa fa-star"></i> Still the traditional tiramisu taste.<br>' +
             '<i class="fa fa-star"></i> But there is something unique about the taste.<br>'
