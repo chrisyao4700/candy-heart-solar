@@ -12,7 +12,7 @@ var greenlock = Greenlock.create({
 	// https://acme-staging-v02.api.letsencrypt.org/directory
 
 	// You MUST change this to a valid email address
-	email: "leonwqiao@gmail.com",
+	email: "leonwqiao@gmail.com", //hello
 
 	// You MUST NOT build clients that accept the ToS without asking the user
 	agreeTos: true,
